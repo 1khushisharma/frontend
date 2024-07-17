@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+
+    *{
+
+     /* reving default settings */
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+                /* INTERNAL CSS */
+    .h{ color: rgb(255, 247, 247);
+       background-color: rgb(174, 121, 161);
+      padding: 10px 20px;
+      /* x=10px and y=20px   work inside  */
+      border-radius: 80px ;
+      font-family: sans-serif;
+      text-transform: capitalize;
+      text-align: center;
+      border: 3px solid black;
+      text-shadow: 2px 2px 2px rgb(118, 88, 109) ; margin: 20px 30px; 
+      /* x=20px and y=30px   work outside */
+    }
+    #box{
+    text-shadow: 2px 2px 2px rgb(150, 173, 17)
+    ;
+    }
+
+
+    .a{
+      height: 300px;
+      width: 300px;
+      background-color: antiquewhite;
+      border: 2px solid black;
+      padding: 50px;
+      margin: 10px 10px;
+      /* box-sizing: border-box; */
+
+    }
+    .b{
+      height: 300px;
+      width: 300px;
+      background-color: antiquewhite;
+      border: 2px solid black;
+      padding: 50px;
+      margin: 0px 10px;
+      /* box-sizing: content-box; */
+
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1 class="h">this is my heading tag</h1>
+  <h2 class="h" id="box"> hello</h2>
+  <h3 class="h"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, eius.</h3>
+
+  <!-- 
+              INLINE CSS
+  
+  <h1 style="color: blue; text-align: center ; background-color: bisque; padding: 10px; font-family: sans-serif ; text-transform: capitalize; border: 2px solid floralwhite; border-radius: 80px; box-shadow: 0px 0px 10px rosybrown; text-shadow: 2px 2px 8px yellow;  ">this is my heading tag</h1>
+
+
+
+
+  selectors 
+  1 class(.)--- can use repeatedly
+  2 id (#) --always unique
+  3 pseudo selector
+  4 universal selectors (*)
+
+
+  <h1 style="color: blue; text-align: center ; background-color: bisque; padding: 10px; font-family: sans-serif ; text-transform: capitalize; border: 2px solid floralwhite; border-radius: 80px; box-shadow: 0px 0px 10px rosybrown; text-shadow: 2px 2px 8px yellow; ">this is also my h1 tag</h1>
+
+
+
+  <p style="color: blue; text-align: center ; background-color: bisque; padding: 10px; font-family: sans-serif ; text-transform: capitalize; border: 2px solid floralwhite; border-radius: 80px; box-shadow: 0px 0px 10px rosybrown; text-shadow: 2px 2px 8px yellow; ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam itaque aut officiis suscipit perferendis voluptatem voluptate excepturi eos tempora odio, vero repellendus veniam aspernatur laborum sequi. Nesciunt facere voluptates reprehenderit!</p> -->
+
+  <div class="a">
+    hello my name is khushi
+  </div>
+  <div class="b"> hello</div>
+</body>
+</html>
